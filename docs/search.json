@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jenetty Immaraj",
+    "section": "",
+    "text": "Linkedin\n  \n  \n    \n     Resume\n  \n  \n    \n     Email\n  \n  \n    \n     Github\n  \n\n  \n  \nWelcome to my professional portfolio! With over 8 years of seasoned expertise in data science and a proven track record in architecting and deploying ML solutions on leading cloud platforms, I specialize in solving complex business challenges across various industries. Passionate about leveraging technical proficiency and creativity, I strive to drive impactful contributions that propel organizational growth and development.\n\n\nUniversity of North Texas, Denton | Dallas, TX. MS in Data Science | Aug 2022 - Dec 2023.\nCarnegie Mellon University| Forbes Ave, PA. PGP in Data Science | Jul 2016 - Apr 2017.\n\n\n\nGenpact | Sr Data Scientist | Mar 2021 - Aug 2022\nQuadratyx | Data Scientist | Jan 2019 - Feb 2021\nVirtusa | Software Engineer | Aug 2015 - Jan 2019"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Jenetty Immaraj",
+    "section": "",
+    "text": "University of North Texas, Denton | Dallas, TX. MS in Data Science | Aug 2022 - Dec 2023.\nCarnegie Mellon University| Forbes Ave, PA. PGP in Data Science | Jul 2016 - Apr 2017."
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Jenetty Immaraj",
+    "section": "",
+    "text": "Genpact | Sr Data Scientist | Mar 2021 - Aug 2022\nQuadratyx | Data Scientist | Jan 2019 - Feb 2021\nVirtusa | Software Engineer | Aug 2015 - Jan 2019"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Jenetty Immaraj",
+    "section": "",
+    "text": "&lt;iframe\nwidth=“800”\nheight=“800”\nsrc=“resume.pdf”&gt;\n&lt;/iframe&gt;"
+  },
+  {
+    "objectID": "Projects.html",
+    "href": "Projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Analysis and predictive assessment of donation amounts.\n\n\n\n\n\n\n\nanalysis\n\n\nSAS Enterprise Miner\n\n\n\n\n\n\n\n\n\n\n\nMay 7, 2023\n\n\nVeda Jenetty Immaraj, Eric Droegemeier, Gregory Ehlinger\n\n\n\n\n\n\n  \n\n\n\n\nLeBron James Career Breakdown\n\n\n\n\n\n\n\nAnalysis\n\n\nTableau\n\n\n\n\n\n\n\n\n\n\n\nDec 5, 2022\n\n\nVeda Jenetty Immaraj, Gregory Ehlinger\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "docs/posts/post-with-code/index.html",
+    "href": "docs/posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/Analysis and Prediction on Donations/index.html",
+    "href": "posts/Analysis and Prediction on Donations/index.html",
+    "title": "Analysis and predictive assessment of donation amounts.",
+    "section": "",
+    "text": "Examine the historical data pertaining to contributions made to a non-profit organization and assess the efficacy of predictive models in forecasting future donations.\nDonation Project Download\nDonation Report Download\nNon-profit Donation Dataset Download\n\nIn this project, Eric Droegemeier, Gregory Ehlinger, and I conducted a comprehensive analysis of historical donation data. Our focus involved the creation and evaluation of multiple predictive models to ascertain their performance. Subsequently, the most effective model was employed to predict and strategically target former donors, maximizing the impact of donor dollars in the upcoming marketing campaign. Notably, SAS Enterprise Miner served as the primary tool for this project."
+  },
+  {
+    "objectID": "posts/LeBron James Career Breakdown/index.html",
+    "href": "posts/LeBron James Career Breakdown/index.html",
+    "title": "LeBron James Career Breakdown",
+    "section": "",
+    "text": "Conducts a statistical analysis of LeBron James’s performance throughout his initial 18 seasons in the NBA.\n\nIn this project, Gregory Ehlinger and I conducted a comprehensive analysis spanning the initial 18 years of LeBron James’s NBA career. Utilizing Tableau, we developed a sophisticated dashboard presenting diverse statistical facets for each year. The visualizations encompassed elements such as profile photos and jerseys, biometric data, statistical averages, shot selection, and geolocation mapping for recorded statistics."
+  },
+  {
+    "objectID": "resume1.html",
+    "href": "resume1.html",
+    "title": "resume",
+    "section": "",
+    "text": "&lt;iframe\n  width=“1000”\n  height=“1000”\n  src=“resume.pdf”&gt;\n&lt;/iframe&gt;"
+  },
+  {
+    "objectID": "Resume.html",
+    "href": "Resume.html",
+    "title": "Jenetty Immaraj",
+    "section": "",
+    "text": "&lt;iframe\nwidth=“800”\nheight=“800”\nsrc=“resume.pdf”&gt;\n&lt;/iframe&gt;"
+  },
+  {
+    "objectID": "Blog.html",
+    "href": "Blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to a fascinating exploration of the ‘mtcars’ dataset! In this blog post, we will embark on a journey through Exploratory Data Analysis (EDA) using R. The ‘mtcars’ dataset, a classic dataset in R, contains specifications and performance measures of various car models.\n\nknitr::include_graphics(\"EDA.png\")"
+  },
+  {
+    "objectID": "Blog.html#step-1-loading-the-dataset",
+    "href": "Blog.html#step-1-loading-the-dataset",
+    "title": "Blog",
+    "section": "Step 1: Loading the Dataset",
+    "text": "Step 1: Loading the Dataset\nLet’s start by loading the ‘mtcars’ dataset into our R environment.\n\n# Load the mtcars dataset\ndata(mtcars)"
+  },
+  {
+    "objectID": "Blog.html#unveiling-insights-a-journey-through-eda-with-the-mtcars-dataset",
+    "href": "Blog.html#unveiling-insights-a-journey-through-eda-with-the-mtcars-dataset",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to a fascinating exploration of the ‘mtcars’ dataset! In this blog post, we will embark on a journey through Exploratory Data Analysis (EDA) using R. The ‘mtcars’ dataset, a classic dataset in R, contains specifications and performance measures of various car models.\n\nknitr::include_graphics(\"EDA.png\")"
+  },
+  {
+    "objectID": "Blog.html#step-2-univariate-analysis",
+    "href": "Blog.html#step-2-univariate-analysis",
+    "title": "Blog",
+    "section": "Step 2: Univariate Analysis",
+    "text": "Step 2: Univariate Analysis\n\nSummary Statistics\nTo gain an initial understanding of the dataset, let’s examine some summary statistics.\n\n# Display summary statistics\nsummary(mtcars)\n\n      mpg             cyl             disp             hp       \n Min.   :10.40   Min.   :4.000   Min.   : 71.1   Min.   : 52.0  \n 1st Qu.:15.43   1st Qu.:4.000   1st Qu.:120.8   1st Qu.: 96.5  \n Median :19.20   Median :6.000   Median :196.3   Median :123.0  \n Mean   :20.09   Mean   :6.188   Mean   :230.7   Mean   :146.7  \n 3rd Qu.:22.80   3rd Qu.:8.000   3rd Qu.:326.0   3rd Qu.:180.0  \n Max.   :33.90   Max.   :8.000   Max.   :472.0   Max.   :335.0  \n      drat             wt             qsec             vs        \n Min.   :2.760   Min.   :1.513   Min.   :14.50   Min.   :0.0000  \n 1st Qu.:3.080   1st Qu.:2.581   1st Qu.:16.89   1st Qu.:0.0000  \n Median :3.695   Median :3.325   Median :17.71   Median :0.0000  \n Mean   :3.597   Mean   :3.217   Mean   :17.85   Mean   :0.4375  \n 3rd Qu.:3.920   3rd Qu.:3.610   3rd Qu.:18.90   3rd Qu.:1.0000  \n Max.   :4.930   Max.   :5.424   Max.   :22.90   Max.   :1.0000  \n       am              gear            carb      \n Min.   :0.0000   Min.   :3.000   Min.   :1.000  \n 1st Qu.:0.0000   1st Qu.:3.000   1st Qu.:2.000  \n Median :0.0000   Median :4.000   Median :2.000  \n Mean   :0.4062   Mean   :3.688   Mean   :2.812  \n 3rd Qu.:1.0000   3rd Qu.:4.000   3rd Qu.:4.000  \n Max.   :1.0000   Max.   :5.000   Max.   :8.000"
+  },
+  {
+    "objectID": "Blog.html#step-3-bivariate-analysis",
+    "href": "Blog.html#step-3-bivariate-analysis",
+    "title": "Blog",
+    "section": "Step 3: Bivariate Analysis",
+    "text": "Step 3: Bivariate Analysis\n\nScatter Plot: Horsepower vs. Mileage\nLet’s explore the relationship between horsepower (‘hp’) and mileage using a scatter plot.\n\n# Scatter plot for horsepower vs. mileage\nplot(mtcars$hp, mtcars$mpg, main = \"Scatter Plot: Horsepower vs. Mileage\", xlab = \"Horsepower\", ylab = \"Miles per Gallon\")\n\n\n\n\n\n\nCorrelation Matrix\nNow, let’s quantify the relationships between mileage, horsepower, and weight using a correlation matrix.\n\n# Correlation matrix\ncor(mtcars[, c(\"mpg\", \"hp\", \"wt\")])\n\n           mpg         hp         wt\nmpg  1.0000000 -0.7761684 -0.8676594\nhp  -0.7761684  1.0000000  0.6587479\nwt  -0.8676594  0.6587479  1.0000000"
+  },
+  {
+    "objectID": "Blog.html#step-4-multivariate-analysis",
+    "href": "Blog.html#step-4-multivariate-analysis",
+    "title": "Blog",
+    "section": "Step 4: Multivariate Analysis",
+    "text": "Step 4: Multivariate Analysis\n\nPairwise Scatterplot Matrix\nVisualize relationships involving multiple variables with a pairwise scatterplot matrix.\n\n# Pairwise scatterplot matrix\npairs(mtcars[, c(\"mpg\", \"hp\", \"wt\", \"disp\")])\n\n\n\n\n\n\nBoxplot: Mileage Distribution by Number of Cylinders\nExplore how the number of cylinders (‘cyl’) influences mileage using a boxplot.\n\n# Boxplot by number of cylinders\nboxplot(mpg ~ cyl, data = mtcars, main = \"Mileage Distribution by Number of Cylinders\", xlab = \"Number of Cylinders\", ylab = \"Miles per Gallon\")"
+  },
+  {
+    "objectID": "Blog.html#conclusion",
+    "href": "Blog.html#conclusion",
+    "title": "Blog",
+    "section": "Conclusion",
+    "text": "Conclusion\nIn this journey through EDA with the ‘mtcars’ dataset, we uncovered valuable insights about the relationships between mileage, horsepower, and other specifications. Higher horsepower tends to correlate with lower mileage, and there’s significant variation in mileage based on the number of cylinders."
+  },
+  {
+    "objectID": "Blog.html#closing-thoughts",
+    "href": "Blog.html#closing-thoughts",
+    "title": "Blog",
+    "section": "Closing Thoughts",
+    "text": "Closing Thoughts\nEDA is a powerful tool for gaining a deeper understanding of your data. I encourage you to apply these techniques to your own datasets and explore the fascinating stories they hold. Happy exploring!"
+  },
+  {
+    "objectID": "Blog.html#section",
+    "href": "Blog.html#section",
+    "title": "Blog",
+    "section": "",
+    "text": "Mileage Distribution\nNow, let’s visualize the distribution of mileage (‘mpg’) using a histogram.\n\n# Visualize distribution of mileage\nhist(mtcars$mpg, main = \"Distribution of Mileage (mpg)\", xlab = \"Miles per Gallon\")"
+  }
+]

@@ -1,0 +1,20 @@
+---
+title: "Analysis and predictive assessment of donation amounts."
+author: " Veda Jenetty Immaraj, Eric Droegemeier, Gregory Ehlinger"
+date: "2023-05-07"
+categories: [analysis, SAS Enterprise Miner]
+image: "nonprofit.png"
+---
+
+Examine the historical data pertaining to contributions made to a non-profit organization and assess the efficacy of predictive models in forecasting future donations.
+
+<a href="Donation.xml" download="Donation.xml" class="download-btn">Donation Project Download</a>
+ 
+<a href="Donation Report.docx" download="Donation Report.docx" class="download-btn">Donation Report Download</a>
+ 
+<a href="nonprofit.xlsx" download="nonprofit.xlsx" class="download-btn">Non-profit Donation Dataset Download</a>
+
+![](nonprofit.png)
+
+
+In this project, Eric Droegemeier, Gregory Ehlinger, and I conducted a comprehensive analysis of historical donation data. Our focus involved the creation and evaluation of multiple predictive models to ascertain their performance. Subsequently, the most effective model was employed to predict and strategically target former donors, maximizing the impact of donor dollars in the upcoming marketing campaign. Notably, SAS Enterprise Miner served as the primary tool for this project.
