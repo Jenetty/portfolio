@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Jenetty Immaraj"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - resume.qmd
+      - Projects.qmd
+      - Blog.qmd
+
+
+format:
+  html:
+    theme: Lux
+    css: styles.css
+    toc: true
+
+
+

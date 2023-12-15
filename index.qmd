@@ -1,0 +1,48 @@
+---
+title: "Jenetty Immaraj"
+image: linkedin.jpg
+resources: resume.pdf
+about: 
+  id: hero-heading
+  template: trestles
+  image-shape: rectangle
+  image-width: 15em
+  links:
+  - text: Linkedin
+    icon: linkedin
+    href: https://www.linkedin.com/in/jenetty-immaraj-951883124/
+  - text: Resume
+    icon: file-text
+    href: resume.pdf
+  - text: Email
+    icon: envelope
+    href: mailto:vedajenettyimmaraj@gmail.com
+  - text: Github
+    icon: github
+    href: https://github.com/Jenetty
+---
+
+
+:::{#hero-heading}
+
+Welcome to my professional portfolio! With over 8 years of seasoned expertise in data science and a proven track record in architecting and deploying ML solutions on leading cloud platforms, I specialize in solving complex business challenges across various industries. Passionate about leveraging technical proficiency and creativity, I strive to drive impactful contributions that propel organizational growth and development.
+
+## Education
+
+University of North Texas, Denton | Dallas, TX.
+MS in Data Science | Aug 2022 - Dec 2023.
+
+Carnegie Mellon University| Forbes Ave, PA.
+PGP in Data Science | Jul 2016 - Apr 2017.
+
+## Experience
+
+Genpact | Sr Data Scientist | Mar 2021 - Aug 2022
+
+Quadratyx | Data Scientist | Jan 2019 - Feb 2021
+
+Virtusa | Software Engineer | Aug 2015 - Jan 2019
+
+:::
+
+

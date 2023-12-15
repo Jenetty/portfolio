@@ -121,8 +121,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Resume.html" rel="" target="">
- <span class="menu-text">Resume.html</span></a>
+    <a class="nav-link" href="./resume.html" rel="" target="">
+ <span class="menu-text">Resume</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Projects.html" rel="" target="">
@@ -153,9 +153,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#step-2-univariate-analysis" id="toc-step-2-univariate-analysis" class="nav-link" data-scroll-target="#step-2-univariate-analysis"><strong>Step 2: Univariate Analysis</strong></a>
   <ul class="collapse">
   <li><a href="#summary-statistics" id="toc-summary-statistics" class="nav-link" data-scroll-target="#summary-statistics"><strong>Summary Statistics</strong></a></li>
-  </ul></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a>
-  <ul class="collapse">
   <li><a href="#mileage-distribution" id="toc-mileage-distribution" class="nav-link" data-scroll-target="#mileage-distribution"><strong>Mileage Distribution</strong></a></li>
   </ul></li>
   <li><a href="#step-3-bivariate-analysis" id="toc-step-3-bivariate-analysis" class="nav-link" data-scroll-target="#step-3-bivariate-analysis"><strong>Step 3: Bivariate Analysis</strong></a>
@@ -203,9 +200,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="unveiling-insights-a-journey-through-eda-with-the-mtcars-dataset"><strong>Unveiling Insights: A Journey through EDA with the ‘mtcars’ Dataset</strong></h2>
 <p>Welcome to a fascinating exploration of the ‘mtcars’ dataset! In this blog post, we will embark on a journey through Exploratory Data Analysis (EDA) using R. The ‘mtcars’ dataset, a classic dataset in R, contains specifications and performance measures of various car models.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"EDA.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"cars.jpg"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="EDA.png" class="img-fluid"></p>
+<p><img src="cars.jpg" class="img-fluid"></p>
 </div>
 </div>
 </section>
@@ -216,6 +213,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the mtcars dataset</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(mtcars)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<p>The provided code snippet loads the ‘mtcars’ dataset, a built-in dataset available in R. This dataset contains information about various car models, including their specifications like miles per gallon (mpg), number of cylinders, horsepower, and more. By using the command data(mtcars), this code makes the ‘mtcars’ dataset available for analysis and manipulation within the R environment.</p>
 </section>
 <section id="step-2-univariate-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="step-2-univariate-analysis"><strong>Step 2: Univariate Analysis</strong></h2>
@@ -249,10 +247,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  Max.   :1.0000   Max.   :5.000   Max.   :8.000  </code></pre>
 </div>
 </div>
+<p>The provided code snippet showcases the functionality of R in analyzing the ‘mtcars’ dataset. With the help of the <strong><code>summary()</code></strong> function, this code efficiently presents a condensed summary of essential statistical metrics for each variable within the dataset.</p>
+<p>By leveraging R’s <strong><code>summary()</code></strong> function, we gain insights into crucial statistics such as minimum and maximum values, median, quartiles, and means associated with every variable in the ‘mtcars’ dataset. Setting <strong><code>echo=TRUE</code></strong> allows the code and its resulting output to be displayed together, enabling clear visibility of both code execution and the summary statistics generated.</p>
+<p>This simple yet powerful command provides a quick overview of the dataset’s key statistical measures, offering valuable insights into the range and distribution of the car attributes in the dataset.</p>
 </section>
-</section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
 <section id="mileage-distribution" class="level3">
 <h3 class="anchored" data-anchor-id="mileage-distribution"><strong>Mileage Distribution</strong></h3>
 <p>Now, let’s visualize the distribution of mileage (‘mpg’) using a histogram.</p>
@@ -263,6 +261,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><img src="Blog_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
+<p>In the provided code snippet, I’ve utilized R to craft a histogram that showcases the distribution pattern of mileage (measured in miles per gallon) from the ‘mtcars’ dataset. This histogram provides a visual representation of how often various mileage values occur across different car models.</p>
+<p>By using the ‘hist()’ function, I’ve generated this histogram, emphasizing the x-axis as ‘Miles per Gallon’ and titling the plot as ‘Distribution of Mileage (mpg)’. This visualization effectively illustrates the spread and frequency of distinct mileage values within our dataset.</p>
+<p>Notably, from the histogram, we can observe a notable peak in frequency within the 15-20 miles per gallon range, indicating that a significant number of car models in the dataset fall within this mileage range.</p>
 </section>
 </section>
 <section id="step-3-bivariate-analysis" class="level2">
@@ -277,6 +278,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><img src="Blog_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
+<p>In this code snippet, I’ve generated a scatter plot using R. The plot visualizes the relationship between two key car attributes: horsepower and mileage (measured in miles per gallon, mpg).</p>
+<p>The <strong><code>plot()</code></strong> function creates the scatter plot. I’ve specified <strong><code>mtcars$hp</code></strong> on the x-axis, representing the car’s horsepower, and <strong><code>mtcars$mpg</code></strong> on the y-axis, depicting the miles per gallon. Additionally, I’ve included a title for the plot (“Scatter Plot: Horsepower vs.&nbsp;Mileage”) using <strong><code>main</code></strong>, and labeled the x-axis as “Horsepower” and the y-axis as “Miles per Gallon” using <strong><code>xlab</code></strong> and <strong><code>ylab</code></strong> respectively.</p>
+<p>This visualization allows us to understand the potential relationship between a car’s horsepower and its fuel efficiency, giving insight into how these factors might be correlated in the dataset.</p>
 </section>
 <section id="correlation-matrix" class="level3">
 <h3 class="anchored" data-anchor-id="correlation-matrix"><strong>Correlation Matrix</strong></h3>
@@ -291,6 +295,20 @@ hp  -0.7761684  1.0000000  0.6587479
 wt  -0.8676594  0.6587479  1.0000000</code></pre>
 </div>
 </div>
+<p>In this code snippet using R, I’ve computed a correlation matrix for specific attributes within the ‘mtcars’ dataset. The variables ‘mpg’ (miles per gallon), ‘hp’ (horsepower), and ‘wt’ (car weight) were chosen for this analysis.</p>
+<p>The output of the correlation matrix reveals the relationship between these variables. Each number in the matrix represents the correlation coefficient between two attributes. A correlation coefficient ranges from -1 to 1, where:</p>
+<ul>
+<li><p>A value of 1 indicates a perfect positive correlation.</p></li>
+<li><p>A value of -1 indicates a perfect negative correlation.</p></li>
+<li><p>A value of 0 suggests no linear relationship between the variables.</p></li>
+</ul>
+<p>For instance, in this matrix:</p>
+<ul>
+<li><p>The correlation between ‘mpg’ and ‘hp’ is approximately -0.776, indicating a moderate negative correlation.</p></li>
+<li><p>The correlation between ‘mpg’ and ‘wt’ is around -0.868, showing a strong negative relationship.</p></li>
+<li><p>The correlation between ‘hp’ and ‘wt’ is about 0.659, representing a moderate positive correlation.</p></li>
+</ul>
+<p>This analysis helps to understand the interdependencies among these car attributes, providing insights into how changes in one attribute might affect others.</p>
 </section>
 </section>
 <section id="step-4-multivariate-analysis" class="level2">
@@ -305,6 +323,10 @@ wt  -0.8676594  0.6587479  1.0000000</code></pre>
 <p><img src="Blog_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
+<p>In the provided R code snippet, I’ve generated a pairwise scatterplot matrix using the ‘pairs()’ function for selected variables from the ‘mtcars’ dataset. The variables included for analysis are ‘mpg’ (miles per gallon), ‘hp’ (horsepower), ‘wt’ (car weight), and ‘disp’ (displacement).</p>
+<p>This scatterplot matrix visually presents relationships among these specific car attributes by showcasing scatterplots of each variable against every other variable in the selected set. Each scatterplot represents the correlation or pattern between two attributes, offering a comprehensive view of their interactions.</p>
+<p>The resulting output is a matrix of scatterplots arranged in a grid format, where the diagonal displays histograms showcasing the distribution of individual variables. The off-diagonal elements exhibit scatterplots illustrating the relationship between pairs of attributes.</p>
+<p>This visual representation aids in identifying potential correlations, trends, or patterns among the selected car attributes, providing an intuitive overview of their interrelationships within the dataset.</p>
 </section>
 <section id="boxplot-mileage-distribution-by-number-of-cylinders" class="level3">
 <h3 class="anchored" data-anchor-id="boxplot-mileage-distribution-by-number-of-cylinders"><strong>Boxplot: Mileage Distribution by Number of Cylinders</strong></h3>
@@ -316,6 +338,10 @@ wt  -0.8676594  0.6587479  1.0000000</code></pre>
 <p><img src="Blog_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
+<p>In this code segment using R, I’ve generated a boxplot visualization to explore the relationship between the number of cylinders in cars and their corresponding mileage (measured in miles per gallon, mpg).</p>
+<p>The <strong><code>boxplot()</code></strong> function creates the graphical representation. By specifying <strong><code>mpg ~ cyl</code></strong>, I’ve directed the plot to display the distribution of mileage for different numbers of cylinders. The ‘mtcars’ dataset is utilized for this analysis.</p>
+<p>The resulting boxplot visually compares the mileage distributions across various cylinder counts. The x-axis shows the number of cylinders in the cars, while the y-axis represents the miles per gallon achieved by each category. This visualization helps in understanding the variation in mileage concerning the different cylinder configurations, showcasing potential trends or differences in fuel efficiency based on the number of cylinders.</p>
+<p>By observing the spread and median values depicted in the boxplot for each cylinder count category, we can gain insights into how the number of cylinders might impact the overall mileage performance of cars.</p>
 </section>
 </section>
 <section id="conclusion" class="level2">
